@@ -37,9 +37,11 @@ Certi DApp is a blockchain-based decentralized application (DApp) built on the E
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/certi-dapp.git
+git clone git@github.com:kanyas03/CertiDApp.git
 cd certi-dapp
-2. Install Dependencies
+
+---
+###  2. Install Dependencies
 Backend / Smart Contract
 
 bash
