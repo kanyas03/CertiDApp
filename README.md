@@ -39,7 +39,7 @@ Certi DApp is a blockchain-based decentralized application (DApp) built on the E
 ```bash
 git clone git@github.com:kanyas03/CertiDApp.git
 cd certi-dapp
-
+```
 ---
 ## 📦 2. Install Dependencies
 
@@ -50,36 +50,35 @@ Install dependencies and compile the smart contract:
 ```bash
 npm install
 npx hardhat compile
+```
+# Frontend
 
-Frontend
+```bash
 
-bash
-Copy
-Edit
 cd frontend
 npm install
 npm run dev
-3. Deploy the Smart Contract
-bash
-Copy
-Edit
+```
+## 3. Deploy the Smart Contract
+```bash
+
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 Update the contract address in your frontend after deployment.
+```
 
-
-🔐 Security
+### 🔐 Security
 Certificates once issued are immutable and publicly verifiable.
 
 All data is recorded on-chain, removing the risk of tampering or forgery.
 
-🙌 Acknowledgments
+### 🙌 Acknowledgments
 Ethereum & Solidity Documentation
 
-Hardhat Team
+# Hardhat Team
 
 MetaMask for Web3 Wallet Integration
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License.
 
