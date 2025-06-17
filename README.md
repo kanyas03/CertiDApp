@@ -41,14 +41,16 @@ git clone git@github.com:kanyas03/CertiDApp.git
 cd certi-dapp
 
 ---
-###  2. Install Dependencies
-Backend / Smart Contract
+## 📦 2. Install Dependencies
 
-bash
-Copy
-Edit
+### 🔧 Backend / Smart Contract
+
+Install dependencies and compile the smart contract:
+
+```bash
 npm install
 npx hardhat compile
+
 Frontend
 
 bash
@@ -65,13 +67,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 Update the contract address in your frontend after deployment.
 
-🧪 Testing
-You can write unit tests in the test/ folder using Hardhat + Mocha.
 
-bash
-Copy
-Edit
-npx hardhat test
 🔐 Security
 Certificates once issued are immutable and publicly verifiable.
 
