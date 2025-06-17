@@ -75,10 +75,6 @@ All data is recorded on-chain, removing the risk of tampering or forgery.
 ### 🙌 Acknowledgments
 Ethereum & Solidity Documentation
 
-# Hardhat Team
-
-MetaMask for Web3 Wallet Integration
-
 ### 📜 License
 This project is licensed under the MIT License.
 
