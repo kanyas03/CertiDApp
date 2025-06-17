@@ -69,8 +69,10 @@ Update the contract address in your frontend after deployment.
 
 ### 🔐 Security
 Certificates once issued are immutable and publicly verifiable.
-
 All data is recorded on-chain, removing the risk of tampering or forgery.
+
+
+----
 
 ### 🙌 Acknowledgments
 Ethereum & Solidity Documentation
